@@ -1,12 +1,14 @@
-/*Stripping Names: Store a person’s name, and include some 
-whitespace characters at the beginning and end of the name. 
-Make sure you use each character combination, "\t" and "\n", 
-at least once. Print the name once, so the whitespace around 
-the name is displayed. Then print the name after striping the 
-white spaces.*/
+// Assignment 05
+/*Famous Quote 2: Repeat Exercise 4, but this time store the famous
+person’s name in a variable called famous_person. Then compose 
+your message and store it in a new variable called message. Print
+your message.*/
 
-// stroing name of a person
-let prsName = "\tMuhammad\t\n\tAhmad\t";
 
-// printing name
-console.log(prsName);
+
+// declaring variable of the famous person's name
+let famous_person = "T.S. Eliot said, ";
+
+// storing the message in variables
+let message = "\"To do the useful thing, to say the courageous thing, to contemplate the beautiful thing: that is enough for one man's life.\"";
+console.log(famous_person +message);

@@ -1,13 +1,11 @@
-/*Famous Quote 2: Repeat Exercise 4, but this time store the famous
-person’s name in a variable called famous_person. Then compose 
-your message and store it in a new variable called message. Print
-your message.*/
+// Assignment 04
 
+/*Famous Quote: Find a quote from a famous person you admire. Print 
+the quote and the name of its author. Your output should look 
+something like the following, including the quotation marks:*/
 
+// declaring variable
+let famousPersonName = "Mulana Rumi";
 
-// declaring variable of the famous person's name
-let famous_person = "T.S. Eliot said, ";
-
-// storing the message in variables
-let message = "\"To do the useful thing, to say the courageous thing, to contemplate the beautiful thing: that is enough for one man's life.\"";
-console.log(famous_person +message);
+// printing witn temlate literal
+console.log(`${famousPersonName} said, \"Raise your words, not voice. It is rain that grows flowers, not thunder.\"`);

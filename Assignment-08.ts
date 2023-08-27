@@ -1,7 +1,13 @@
-/*Favorite Number: Store your favorite number in a variable. 
-Then, using that variable, create a message that reveals 
-your favorite number. Print that message.*/
+// Assignment 08
+/*You should create four lines that look like this:
+console.log(5 + 3)
+Your output should simply be four lines with the number 8 
+appearing once on each line.*/
 
-// storing my Favourit number in a Variable
-let myFavNum:number = 14; 
-console.log(`My favorite number is ${myFavNum}.`);
+// declaring variable
+let nr:number = 8;
+// printing these numbers
+console.log(nr);
+console.log(nr);
+console.log(nr);
+console.log(nr);

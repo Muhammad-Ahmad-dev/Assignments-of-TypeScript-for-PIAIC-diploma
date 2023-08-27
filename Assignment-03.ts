@@ -1,11 +1,14 @@
-// Assignment 04
+// Assignment 03
+/*Name Cases: Store a person’s name in a variable, and then print
+ that person’s name in lowercase, uppercase, and titlecase.*/
 
-/*Famous Quote: Find a quote from a famous person you admire. Print 
-the quote and the name of its author. Your output should look 
-something like the following, including the quotation marks:*/
+//Step 01: Storing Person's Name in a variable  
 
-// declaring variable
-let famousPersonName = "Mulana Rumi";
+let perName = "Muhammad Ahmad";
 
-// printing witn temlate literal
-console.log(`${famousPersonName} said, \"Raise your words, not voice. It is rain that grows flowers, not thunder.\"`);
+//Step 02: Printing Name in lowercase
+    console.log("Person Name in lowercase is: "  +perName.toLowerCase());
+//Step 03: Printing Name in Uppercase     
+    console.log("Person Name in uppercase is: " +perName.toUpperCase());
+//Step 04: Printing Name in titlecase    
+    console.log("Person Name in titlecase is: " +perName.toString());
